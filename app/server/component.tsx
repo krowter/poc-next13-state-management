@@ -17,7 +17,7 @@ export default async function ServerComponent() {
 
   return (
     <div>
-      Ini Server Component count = {countStore.getServerValue()}
+      This is Server Component count = {countStore.getServerValue()}
       <Script
         id="script-id"
         dangerouslySetInnerHTML={{

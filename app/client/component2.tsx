@@ -6,7 +6,7 @@ export default function ClientComponent2() {
   const [count, setCount] = useCount();
   return (
     <div>
-      Ini Client Component 2, count = {count}
+      This is Client Component, count = {count}
       <br />
       <button onClick={() => setCount((c) => c + 1)}>increment counter</button>
     </div>

@@ -7,10 +7,10 @@ export default function ClientPage({ children }: { children: ReactNode }) {
   const [count] = useCount();
   return (
     <div>
-      Ini Client Component 1, count = {count}
+      This is Client Component 1, count = {count}
       <br />
       <br />
-      <span>Ini childrennya</span>
+      <span>the children</span>
       {children}
     </div>
   );
