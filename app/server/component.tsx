@@ -6,7 +6,7 @@ const countStore = createDataSource(1);
 
 export const useCount = countStore.useClientHook;
 
-// pura2 ambil data db
+// mock db calls
 function getCountFromDB() {
   return Promise.resolve(123);
 }
